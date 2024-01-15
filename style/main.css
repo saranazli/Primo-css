@@ -1,0 +1,60 @@
+/* 
+
+questo è un elemento */
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+}
+
+/*selettore di un id */
+
+#main-title{
+  color: red;
+}
+
+/* selettore di una classe */
+
+.primary{
+  color: green;
+  text-align: center;
+}
+
+/*selettore di  un elemento */
+
+h4{
+  color: blueviolet;
+  text-align: right;
+}
+
+.box{
+  background-color: orange;
+  color: white;
+  width: 500px;
+  height: 200px;
+  border: 2px solid black;
+  text-align: justify;
+}
+
+/*
+con lo spazio tra selettori si seleziona l'elemento contenuto cioè due selettori */
+
+.box p{
+  font-size: 10px;
+}
+
+/* attaccando i selettori modifica tutti gli elementi al loro interno */
+
+.box.little-box{
+  width: 300px;
+}
+
+.box.little-box h3{
+  width: 300px ;
+}
+
+/* mettendo la virgola seleziona specificatamente l'uno e l'altro si possono metter più di due */
+
+em, strong{
+  color: red;
+}
